@@ -1,0 +1,9 @@
+*.h5
+*.rar
+*.swp
+*.zip
+
+GeNeVA-v1/
+
+data/
+raw-data/
