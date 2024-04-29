@@ -1,4 +1,4 @@
-name: geneva
+name: geneva_dataset
 channels:
   - defaults
 dependencies:
