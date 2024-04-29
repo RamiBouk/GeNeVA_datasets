@@ -45,7 +45,7 @@ fi
 # get CoDraw background image and object names
 if [ ! -f raw-data/CoDraw/background.png ]
 then
-    download https://vision.ece.vt.edu/clipart/dataset/AbstractScenes_v1.1.zip
+    download download https://download.microsoft.com/download/4/5/D/45D1BBFC-7944-4AC5-AED2-1A35D85662D7/AbstractScenes_v1.1.zip    
     unzip -j AbstractScenes_v1.1.zip AbstractScenes_v1.1/Pngs/background.png -d raw-data/CoDraw
     unzip -j AbstractScenes_v1.1.zip AbstractScenes_v1.1/VisualFeatures/10K_instance_occurence_58_names.txt -d raw-data/CoDraw
     rm AbstractScenes_v1.1.zip
