@@ -33,7 +33,7 @@ def generate_glove_file():
     codraw_vocab.sort()
 
     print('Loading GloVe file. This might take a few minutes.')
-    with open(original_glove, 'r') as f:
+    with open(original_glove, 'r',encoding='utf-8') as f:
         original_glove = f.readlines()
         tok_glove_pairs = [x.strip().split(' ', 1) for x in original_glove]
 
